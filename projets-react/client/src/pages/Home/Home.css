@@ -1,28 +1,130 @@
-.Register {
-    width: 100%;
-    height: 750px;
-    display: flex;
-    
-  }
-  
-  .RegisterForm {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .RegisterForm input,button{
-    margin: 10px;
-    width: 400px;
-    height: 50px;
-    font-size: 20px;
-  }
-  
-  
-  .RegisterForm button:hover{
-    cursor: pointer;
-  }
-  
-  h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  
-  }
+.body {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+  margin: auto;
+}
+
+.entetegauche {
+  width: 30vw;
+  height: 100vh;
+  align-items: center;
+  border-left-style: none;
+  border-top-style: none;
+  border-bottom-style: none;
+  border-right-style: solid;
+  border-width: 0.1vw;
+  border-color: rgb(170, 170, 170);
+  background-color: white;
+}
+
+.menu {
+  border: none;
+  width: 30vw;
+  height: 10vh;
+  font-size: 3vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background: linear-gradient(to bottom right, red, orange);
+}
+
+.iconmenu {
+  width: 4vw;
+  height: 10vh;
+  float: left;
+  margin-right: 5%;
+}
+.match {
+  background: white;
+  border: none;
+  font-size: 2vh;
+  display: inline-block;
+  width: 10vw;
+}
+.message {
+  background: white;
+  border: none;
+  font-size: 2vh;
+  margin-bottom: 100%;
+  display: inline-block;
+  width: 10vw;
+}
+
+.searchmatch {
+  width: 70vw;
+  height: 100vh;
+  display: inline-block;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.TinderUcly {
+  width: 20vw;
+  height: 10vh;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 10vh;
+  margin: auto;
+}
+
+.profil {
+  width: 25vw;
+  height: 60vh;
+  overflow: hidden;
+  border-radius: 5% 5% 5% 5%;
+  display: flex;
+  margin: 5% auto 2%;
+}
+
+img {
+  width: 25vw;
+  height: 60vh;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.choix {
+  text-align: center;
+}
+.dislike {
+  width: 7.5vw;
+  height: 15vh;
+  background: #fafafa;
+  box-shadow: 1px 1px 3px #aaa;
+  font: bold 3vh Arial;
+  border-radius: 50%;
+  outline-style: none;
+  border: none;
+  text-align: center;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(red),
+    to(orange)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-right: 5%;
+}
+
+.like {
+  width: 7.5vw;
+  height: 15vh;
+  background: #fafafa;
+  box-shadow: 1px 1px 3px #aaa;
+  font: bold 3vh Arial;
+  border-radius: 50%;
+  border: none;
+  outline-style: none;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(lawngreen),
+    to(greenyellow)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
